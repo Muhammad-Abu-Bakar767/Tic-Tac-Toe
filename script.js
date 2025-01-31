@@ -66,7 +66,7 @@ const drawScreen = () => {
     message.style.textAlign = "center";
     message.style.fontSize = "24px";
     message.style.color = "red";
-    container.after(message);
+    title.after(message);
     disableButtons();
 }
 
@@ -110,7 +110,7 @@ const winnerScreen = (position1val) => {
     message.style.textAlign = "center";
     message.style.fontSize = "24px";
     message.style.color = "green";
-    container.after(message);
+    title.after(message);
     disableButtons();
 }
 
